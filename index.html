@@ -1,0 +1,114 @@
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="YtiBKbKYsEI9fVZ3poHd12wpcML9cNZa7KEhLwhN">
+
+        <title>C-NET | Internet Communication Services</title>
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="https://janz420.github.io/css/style.css">
+
+        <!-- Scripts -->
+        <script src="https://janz420.github.io/js/script.js" defer=""></script>
+        <script src="xhr.js" defer=""></script>
+    </head>
+    <body class="bg-blue-300">
+        <div class="font-sans text-gray-900 antialiased relative">
+            <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gradient-to-r from-white to-blue-100">
+    <div>
+        <section class="hero container max-w-screen-lg mx-auto">
+                <img class="mx-auto mt-6" src="https://cnetfiber.com/assets/img/logo1.png" height="30%" width="40%">
+            </section>
+    </div>
+
+    <div class="w-full sm:max-w-md px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+        <!-- Validation Errors -->
+                <h1 class="text-2xl mb-5  font-semibold text-center">GCash Payment Form</h1>
+
+                   
+
+            <!-- Name -->
+            <div>
+                <label class="block font-medium text-sm text-gray-700" for="customername">
+    Customer Name
+</label>
+
+                <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" id="customername" type="text" name="customername" required="required" autofocus="autofocus">
+                <span id="error-customername" class="text-red-400 text-sm"></span>
+            </div>
+
+            <!-- Email Address -->
+            <div class="mt-4">
+                <label class="block font-medium text-sm text-gray-700" for="customeremail">
+    Email
+</label>
+
+                <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" id="customeremail" type="email" name="customeremail" required="required">
+                <span id="error-customeremail" class="text-red-400 text-sm"></span>
+            </div>
+
+            <div class="mt-4">
+                <label class="block font-medium text-sm text-gray-700" for="customermobile">
+    Mobile Number
+</label>
+
+                <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" id="customermobile" type="number" name="customermobile" required="required" placeholder="ex. 09123456789">
+                <span id="error-customermobile" class="text-red-400 text-sm"></span>
+
+            </div>
+
+            <div class="mt-4">
+                <label class="block font-medium text-sm text-gray-700" for="amount">
+    Amount
+</label>
+
+                <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" id="amount" type="number" name="amount" min="1" required="required">
+                <span id="error-amount" class="text-red-400 text-sm"></span>
+
+            </div>
+
+            <div class="mt-4">
+                <label class="block font-medium text-sm text-gray-700" for="description">
+    Account Details
+</label>
+
+                <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full" id="description" placeholder="Account Name and Address" type="text" name="description" required="required" autofocus="autofocus">
+                <span id="error-description" class="text-red-400 text-sm"></span>
+
+            </div>
+
+            <div class="text-center mt-8 mb-4" style="text-align: center">      
+                <button type="submit" id="post-btn"><img src="https://getpaid.gcash.com/assets/img/paynow.png"></button>
+            </div>
+        
+                
+    </div>
+
+    <div class="text-center text-sm mt-4">
+        Powered by:
+        <img class="mx-auto w-40" src="https://janz420.github.io/gcash.png" alt="">
+    </div>
+
+    <div class="text-center text-xs w-full sm:max-w-md mt-3 px-6 py-1 pb-4 overflow-hidden leading-5">
+        1. Your payment will be posted in (2) two working days.<br> 
+        2. Should you have any questions, you may send us a message on our official channels and we will attend to your concerns.<br> 
+        3. You may be charged a minimal processing fee by paying through using GCash.<br>
+        4. By using this service, you agree to our Terms and Conditions.
+    </div>
+</div>
+    <!-- <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden absolute">
+  <div class="w-2 bg-gray-800"></div>
+  <div class="flex items-center px-2 py-3">
+    <div class="mx-3">
+      <h2 class="text-xl font-semibold text-gray-800"></h2>
+      <p class="text-gray-600"></p>
+    </div>
+  </div>
+</div>-->
+        </div>
+    
+
+</body></html>
